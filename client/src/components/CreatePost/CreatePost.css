@@ -1,0 +1,31 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.create-post__form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.create-post__form > input,textarea{
+    max-width: 250px;
+    width: 100%;
+    margin: 10px 0;
+}
+.create-post__form textarea{
+    resize: vertical;
+}
+.create-post__form input:first-child{
+    height: 30px;
+}
+.create-post__form input:last-child{
+    text-transform: uppercase;
+    height: 25px;
+}
+.error{
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: red;
+}

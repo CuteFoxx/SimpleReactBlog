@@ -1,0 +1,13 @@
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+.posts a {
+  color: black;
+}
+@media screen and (max-width: 620px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+}
